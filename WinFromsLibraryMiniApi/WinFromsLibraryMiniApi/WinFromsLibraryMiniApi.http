@@ -1,0 +1,6 @@
+@WinFromsLibraryMiniApi_HostAddress = http://localhost:5143
+
+GET {{WinFromsLibraryMiniApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
