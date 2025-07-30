@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFromsLibraryMiniApi", "WinFromsLibraryMiniApi\WinFromsLibraryMiniApi.csproj", "{75A49F68-0067-492B-9B16-E99ADB66D265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryModels", "dbContextHelp\LibraryModels.csproj", "{22AF34B1-CCF7-4BF7-A34F-78625647BDB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDTO", "dbContextHelp\LibraryDTO.csproj", "{22AF34B1-CCF7-4BF7-A34F-78625647BDB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryBLL", "LibraryBLL\LibraryBLL.csproj", "{75977D0C-C01D-460D-B820-E9F7B5937CD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryServices", "LibraryBLL\LibraryServices.csproj", "{75977D0C-C01D-460D-B820-E9F7B5937CD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDAL", "LibraryDAL\LibraryDAL.csproj", "{E6C4AEF7-13F2-4D86-AA0D-2376E31C48A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryRepositories", "LibraryDAL\LibraryRepositories.csproj", "{E6C4AEF7-13F2-4D86-AA0D-2376E31C48A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

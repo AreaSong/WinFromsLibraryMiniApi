@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dbContextHelp\LibraryModels.csproj" />
+    <ProjectReference Include="..\LibraryDAL\LibraryRepositories.csproj" />
   </ItemGroup>
 
 </Project>

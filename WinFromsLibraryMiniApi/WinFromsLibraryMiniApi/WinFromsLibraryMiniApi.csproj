@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dbContextHelp\LibraryModels.csproj" />
-    <ProjectReference Include="..\LibraryBLL\LibraryBLL.csproj" />
+    <ProjectReference Include="..\dbContextHelp\LibraryDTO.csproj" />
+    <ProjectReference Include="..\LibraryBLL\LibraryServices.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,3 +1,5 @@
+using dbContextHelp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WinFromsLibraryMiniApi
 {
@@ -13,6 +15,8 @@ namespace WinFromsLibraryMiniApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<WinFromLibraryMiniDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
